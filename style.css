@@ -4,25 +4,32 @@ div {
     width: 100%; 
     border: 100px solid black; 
 } 
-   
+p{
+  position: relative;
+  left: 20%;
+  font-weight: bolder ;
+}
+label{
+    position: relative;
+    left: 30%;
+}
 form {                                         
     margin: 0 auto; 
-    width: 600px;
-    text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
-}
-
-form>p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+    width: 90%;
+    border: 1px Solid rgb(194, 194, 194);
+    background-color: rgb(203, 203, 203);
 }
 input{
-    width: 300px;
+    width: 400px;
+    height: 30px;
     margin-left: 2%;
     float: inline-end;
+}
+#check{
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
 }
 .alert{
     color: red;
